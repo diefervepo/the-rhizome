@@ -3,12 +3,21 @@
     src: url('fonts/HostGrotesk-Light.ttf');
     font-weight: 300;
 }
+:root {
+  --bg-main: rgb(255, 252, 251);       /* Soft cream white */
+  --text-main: #2b2927;               /* Dark charcoal for soft readability */
+  --accent-color: #8c5a3c;            /* Warm warm accent color (e.g. for buttons/links) */
 
+  --font-body: 'Host Grotesk Light', sans-serif;
+
+  --container-width: 1000px;
+}
 
 body {
-    font-family: 'Host Grotesk Light', sans-serif;
+    font-family: var(--font-body);
     font-size: 16px;
     line-height: 1.2;
-    background-color: rgb(255, 252, 251);
+    background-color: var(--bg-main);
+    color: var(--text-main);
 
 }
