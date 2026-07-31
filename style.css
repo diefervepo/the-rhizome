@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Host Grotesk Light';
+    src: url('fonts/HostGrotesk-Light.ttf');
+    font-weight: 300;
+}
+
+
+body {
+    font-family: 'Host Grotesk Light', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: rgb(255, 252, 251);
+
+}
