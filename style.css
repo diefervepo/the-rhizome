@@ -21,7 +21,7 @@
 header, body{
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 body {
     margin:0;
@@ -79,6 +79,9 @@ body p{
         flex-shrink: 0;
         /*-webkit-overflow-scrolling: touch;*/
         font-size: medium;
+
+        max-width: 100%;
+        width: 100%;
     }
     .navbar nav::-webkit-scrollbar {
         display: none;
