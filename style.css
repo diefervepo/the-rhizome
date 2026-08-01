@@ -30,6 +30,10 @@ body {
 
 }
 
+body p{
+    margin: 32px;
+}
+
 .navbar{
     width: 100%;
     position: sticky;
@@ -62,7 +66,7 @@ body {
     color: #00ffff
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
     .navbar nav{
         display: flex;
         overflow-x: auto;
