@@ -18,7 +18,11 @@
 
   --container-width: 1000px;
 }
-
+header, body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
 body {
     margin:0;
     padding:0;
@@ -36,6 +40,7 @@ body p{
 
 .navbar{
     width: 100%;
+    box-sizing: border-box;
     position: sticky;
     top:0;
     z-index: 1000;
