@@ -65,6 +65,7 @@ body p{
     color: var(--bg-main);
     text-decoration: none;
     font-weight: 300;
+    flex-shrink: 0;
 }
 
 .navbar nav a:hover{
