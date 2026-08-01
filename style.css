@@ -83,6 +83,7 @@ body p{
 
         max-width: 100%;
         width: 100%;
+        justify-content: flex-start;
     }
     .navbar nav::-webkit-scrollbar {
         display: none;
