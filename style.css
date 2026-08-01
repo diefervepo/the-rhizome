@@ -51,3 +51,23 @@ body {
 .navbar nav a:hover{
     color: #00ffff
 }
+
+@media (max-width: 600px) {
+    .navbar nav{
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-shrink: 0;
+        -webkit-overflow-scrolling: touch;
+        font-size: small;
+    }
+    .navbar nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .navbar nav {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+}
