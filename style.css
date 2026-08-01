@@ -81,8 +81,7 @@ body p{
         /*-webkit-overflow-scrolling: touch;*/
         font-size: medium;
 
-        max-width: 100%;
-        width: 100%;
+
         padding-left: 1rem;
         padding-right: 2rem;
     }
