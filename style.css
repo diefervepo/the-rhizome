@@ -48,6 +48,7 @@ body {
 .navbar div{
     color:var(--bg-main);
     text-decoration: none;
+    flex-shrink: 0;
     
 }
 .navbar nav a {
