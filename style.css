@@ -21,3 +21,26 @@ body {
     color: var(--text-main);
 
 }
+
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 16px;
+    padding-right: 32px;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    color: var(--bg-main);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navbar nav a:hover{
+    color: #00ffff
+}
